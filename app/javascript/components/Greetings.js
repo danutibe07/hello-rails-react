@@ -22,6 +22,7 @@ function Greetings() {
   return (
     <div className="centre">
       {greetingsData && <h1>{greetingsData.message}</h1>}
+      
     </div>
   );
 }
